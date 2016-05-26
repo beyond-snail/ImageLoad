@@ -14,7 +14,7 @@ import android.graphics.BitmapFactory;
  * @author Administrator
  *
  */
-public class DiskCache {
+public class DiskCache implements ImageCache{
 	static String cacheDir = "sdcard/cache/";
 	
 	//从缓存中获取图片
